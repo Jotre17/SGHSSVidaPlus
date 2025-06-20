@@ -1,7 +1,7 @@
 # SGHSSVidaPlus
 Projeto multidisciplinar de conclusão de curso.
 
-# Nesta branche será apresentado todos os arquivos que correspondem a parte de engenharia e a versão final do código.
+# Nesta branche será apresentado todos os arquivos que correspondem a parte de engenharia/modelagem do software e a versão final do código.
 
 Nas próximas branches você poderá baixar o projeto.zip para acompanhar o desenvolvimento do sistema.
 
