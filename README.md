@@ -8,4 +8,4 @@ Nas próximas branches você poderá baixar o projeto.zip para acompanhar o dese
 # Como tive problemas com o versionamento via GIT, o mesmo foi realizado localmente e em nuvem pessoal. Está disponibilizado aqui em arquivos .zip, para manter a integridade do projeto.
 
 ⚠️ # Atenção:
-Em todos os casos de teste do sistema é recomendavel recriar o ambiente virtual completamente.
+Em todos os casos de teste do sistema é recomendavel recriar o ambiente virtual completamente. (Siga as instruções do arquivo instrucoes_para_uso.txt para recriar o ambiente virtual)
