@@ -49,7 +49,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sghss',
         'USER': 'root',
-        'PASSWORD': 'Ventilador1708!',
+        'PASSWORD': '---',
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -81,54 +81,3 @@ O projeto está organizado em 5 aplicações principais:
 3. **profissionais**: Gerenciamento de profissionais de saúde.
 4. **consultas**: Agendamento e gerenciamento de consultas e prontuários
 5. **administracao**: Configurações do sistema, relatórios e administração
-
-## API Endpoints
-
-### Autenticação
-- POST /api/token/ - Obter token JWT
-- POST /api/token/refresh/ - Atualizar token JWT
-
-### Core
-- GET /api/ - API root
-- GET/POST /api/unidades/ - Listar/criar unidades de saúde
-- GET /api/registros/ - Listar registros de acesso (admin only)
-
-### Pacientes
-- GET/POST /api/pacientes/ - Listar/criar pacientes
-- GET/PUT/DELETE /api/pacientes/{id}/ - Detalhes/atualizar/excluir paciente
-- GET /api/pacientes/{id}/prontuario/ - Obter histórico médico
-- PUT /api/pacientes/{id}/atualizar_prontuario/ - Atualizar histórico médico
-- GET /api/pacientes/buscar/?termo={termo} - Buscar pacientes
-
-### Profissionais
-- GET/POST /api/profissionais/ - Listar/criar profissionais
-- GET/PUT/DELETE /api/profissionais/{id}/ - Detalhes/atualizar/excluir profissional
-- GET /api/profissionais/{id}/agenda/ - Obter agenda do profissional
-- GET /api/profissionais/buscar/?termo={termo} - Buscar profissionais
-- GET/POST /api/agendas/ - Listar/criar agendas
-- GET /api/agendas/disponiveis/ - Listar horários disponíveis
-
-## Segurança
-
-O sistema implementa as seguintes medidas de segurança:
-
-1. Autenticação JWT (JSON Web Token)
-2. Controle de acesso baseado em permissões
-3. Registro de logs de acesso
-4. Criptografia de dados sensíveis
-5. Conformidade com a LGPD
-
-## Testes
-O projeto conta com um script de testes automatizados para validação das funcionalidades principais do sistema SGHSS. Os testes simulam operações reais de uso da API REST.
-
-As ações testadas incluem:
-
-1. Autenticação JWT: Valida a obtenção de token com credenciais válidas.
-
-2. Cadastro de unidade de saúde: Garante que uma nova unidade pode ser registrada com sucesso.
-
-3. Criação de profissional de saúde: Simula o vínculo com uma unidade e o registro completo do profissional.
-
-4. Cadastro de paciente: Testa o registro de dados pessoais e de contato.
-
-5. Agendamento de consulta: Verifica o relacionamento entre paciente, profissional e data/hora da consulta.
