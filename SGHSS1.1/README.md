@@ -49,7 +49,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sghss',
         'USER': 'root',
-        'PASSWORD': 'Ventilador1708!',
+        'PASSWORD': '---',
         'HOST': 'localhost',
         'PORT': '3306',
     }
