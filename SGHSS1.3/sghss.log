@@ -1,0 +1,4 @@
+User: Anonymous | Method: GET | Path: /api/ | Status: 401 | Duration: 0.04s
+User: Anonymous | Method: GET | Path: /api/ | Status: 401 | Duration: 0.03s
+User: Anonymous | Method: GET | Path: /api/ | Status: 401 | Duration: 0.00s
+User: Anonymous | Method: GET | Path: /api/ | Status: 401 | Duration: 0.02s
