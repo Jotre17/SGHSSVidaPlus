@@ -1,0 +1,2 @@
+Único end-point utilizável:
+/admin/
